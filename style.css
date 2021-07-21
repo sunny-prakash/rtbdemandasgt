@@ -29,10 +29,11 @@ body {
 .nav--auth button {
     margin: 0 10px;
     font-size: 20px;
-    background: wheat;
+    background: rgb(230, 214, 206);
     border: none;
     border-radius: 5px;
     padding: 2px 5px;
+    cursor: pointer;
 }
 
 .nav--content {
