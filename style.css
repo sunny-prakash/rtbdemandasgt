@@ -166,10 +166,19 @@ p {
     /* position: absolute; */
 }
 
-.circle--group p {
+.circle-block1 p {
     margin: 3px 0;
-    max-width: 100px;
-    perspective: 100px;
+    max-width: 80px;
+}
+
+.circle-block2 p {
+    margin: 3px 0;
+    max-width: 80px;
+}
+
+.circle-block3 p {
+    margin: 3px 0;
+    max-width: 80px;
 }
 
 .circle--group {
