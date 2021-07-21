@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .nav--bar {
@@ -47,4 +48,116 @@ body {
 
 .nav--link {
     margin-left: 1rem;
+}
+
+.hero--container {
+    margin: 2rem 10rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.hero--img {
+    width: 70vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.main--container {
+    box-sizing: border-box;
+    margin: 2rem 13rem;
+}
+
+.adcontainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.close {
+    width: 100%;
+    right: 2px;
+    font-size: larger;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close--btn {
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.ad--img {
+    width: 60vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.footer {
+    background: #8d8a8a;
+    width: 100%;
+    height: 35vh;
+    color: azure;
+    box-sizing: border-box;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    text-align: justify;
+}
+
+.sticky--block {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.sticky--close {
+    cursor: pointer;
+}
+
+.circle-block {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: spin 10s linear infinite;
+}
+
+.circle-block p {
+    margin: 3px 0;
+    max-width: 100px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0);
+    }
+    25% {
+        transform: rotateY(30deg);
+    }
+    50% {
+        transform: rotateY(270deg);
+    }
+    75% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }
